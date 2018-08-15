@@ -29,6 +29,9 @@ bool cmp(const Meeting &u, const Meeting &v)
     else    
         return u.end < v.end;
 }
+// 위 comparator function을 통해서 end 값이 같을 경우
+// begin 값이 작은 Meeting 객체가, end 값이 다를 경우
+// end 값이 작은 Meeting 객체가 앞에 가도록 정렬된다.
 
 int main()
 {
@@ -61,6 +64,6 @@ int main()
             ans += 1;
         }
     }
-
+    
     printf("%d\n", ans);
 }
