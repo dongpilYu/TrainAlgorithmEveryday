@@ -2,6 +2,7 @@
     Traing algorithm everyday
     2018-08-15
     
+    greedy algorithm(ATM) 
 */
 
 #include <iostream>
