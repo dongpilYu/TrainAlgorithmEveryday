@@ -1,3 +1,9 @@
+/*
+    Traing algorithm everyday
+    2018-08-15
+    
+*/
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -12,13 +18,8 @@ int main()
     for(int i=0;i<num;i++)
         cin >> arr[i];
     
-    
     sort(arr.begin(), arr.end());
     
-    for(int i=0;i<num;i++)
-        cout << arr[i] << ' ';
-    cout << endl;
-
     int mini = 0;
     int idx = num;
     for(int i=0;i<num;i++)
