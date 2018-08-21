@@ -45,5 +45,6 @@ int main()
     reverse(numbers.begin(), numbers.end());
     for(int i=0;i<numbers.size();i++)
         cout << numbers[i];
-    
+
+    // 다 합쳐서 3의 배수,    
 }
