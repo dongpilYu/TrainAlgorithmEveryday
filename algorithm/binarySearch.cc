@@ -1,3 +1,7 @@
+/*
+    Traing algorithm everyday
+    2018-08-21
+*/  
 #include <iostream>
 #include <algorithm>
 using namespace std;
