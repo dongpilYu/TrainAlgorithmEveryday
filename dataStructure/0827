@@ -1,0 +1,40 @@
+8/27 자료구조 OT
+
+자료구조 - 자료를 효율적으로 이용할 수 있도록 컴퓨터에 저장하는 방법
+STL에 대한 이해가 자료구조를 이해하는데 도움을 줄 수 있다.
+
+[https://www.geeksforgeeks.org/cpp-stl-tutorial/]
+
+STL is a set of c++ template classes to provide common programming
+data structure and functions such as vector, list, stack
+
+STL has 4 components
+- Algorithms
+- Containers
+- Functions
+- Iterators
+
+Algorithms
+
+algorithm 헤더는 요소 범위에서 사용하도록 설계된 함수 모음을 정의한다. 그들은 컨테이너 위에서 동작하고 컨테이너의 내용물을 위한
+다양한 운영에 대한 수단을 제공한다. 
+
+Algorithm
+- sorting
+- searching
+- important STL algorithms
+- useful array algorithms
+- partition operations
+Numeric
+- valarray class
+
+Containers
+
+컨테이너, 컨테이너 클래스는 객체와 데이터를 저장한다.
+총 7개의 표준 first-class 컨테이너 클래스가 존재하고
+3개의 컨테이너 어댑터 클래스와 오직 7개의 헤더파일이
+이러한 컨테이너와 컨테이너 어댑터에 접근할 수 있는 권한을
+제공한다.
+
+sequence containers implement data structure which
+can be addressed in a sequential manner.
